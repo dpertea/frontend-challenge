@@ -1,0 +1,63 @@
+:root {
+  --accent-color: oklch(0.9199 0.2009 113.99);
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 0 2em;
+}
+
+.name {
+  color: #888;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: left;
+}
+
+#flag-container {
+  text-align: left;
+  font-size: 20px;
+}
+
+.inline-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.inline-list li {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  margin-right: 0.25rem; /* letter spacing */
+  font-family: monospace;
+}
+
+
+.cursor, .inline-list {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.cursor {
+  position: relative;
+  bottom: 1px;
+}
+
+.loader {
+  letter-spacing: 0.25rem;
+  color: var(--accent-color);
+}
+
+.cursor {
+  color: var(--accent-color);
+}
